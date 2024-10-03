@@ -6,8 +6,7 @@
 	- **Troubleshooting**: In **Real-Time Mode**, traffic flows continuously, making it difficult to spot problems or packet behavior. In **Simulation Mode**, you can pause or slow down the traffic, making it easier to identify and troubleshoot network issues.
 
 - ### Add Complex PDU tool
-	The **Add Complex PDU tool** in Cisco Packet Tracer allows you to create custom packets for testing purposes, such as sending broadcast messages or simulating specific types of traffic. It’s represented by an **envelope icon** and is used to manually create and configure PDUs (Prot
-	ocol Data Units).
+	The **Add Complex PDU tool** in Cisco Packet Tracer allows you to create custom packets for testing purposes, such as sending broadcast messages or simulating specific types of traffic. It’s represented by an **envelope icon** and is used to manually create and configure PDUs (Protocol Data Units).
 	
 	 - ### PDU
 		 - Think of it as a **package** of information that gets passed around between devices. The name changes depending on where it is in the communication process:
