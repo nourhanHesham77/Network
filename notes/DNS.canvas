@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"f4f85ee595f5188f","type":"group","x":-542,"y":-260,"width":322,"height":230,"label":"My DNS (10.0.0.3)"},
+		{"id":"9310161de8cf6ad2","type":"text","text":"## A : 10.0.0.1\n## B : 10.0.0.2","x":-460,"y":-210,"width":181,"height":120,"color":"5"},
+		{"id":"2a820d421d94d605","type":"text","text":"# A","x":-640,"y":350,"width":88,"height":60},
+		{"id":"2ef5f0773177c008","type":"text","text":"# .org","x":700,"y":-120,"width":133,"height":60,"color":"4"},
+		{"id":"b84120220cee59a0","type":"text","text":"# .net","x":540,"y":-90,"width":125,"height":60,"color":"4"},
+		{"id":"6668c60043c1979d","type":"text","text":"# root hint (.)","x":491,"y":-380,"width":222,"height":115,"color":"1"},
+		{"id":"d62804ebae02c3a2","type":"text","text":"# .com","x":340,"y":-60,"width":151,"height":90,"color":"4"},
+		{"id":"18e04f67aab22314","type":"text","text":"# DNS Yahoo","x":340,"y":150,"width":250,"height":60,"color":"3"},
+		{"id":"14364799df50f5a0","type":"text","text":"# Switch","x":-640,"y":150,"width":196,"height":60,"color":"2"},
+		{"id":"a6bf6521278cbdc5","type":"text","text":"# maktoob","x":665,"y":300,"width":215,"height":60,"color":"2"},
+		{"id":"3921cfa298729dba","type":"text","text":"# mail","x":465,"y":300,"width":166,"height":60,"color":"2"},
+		{"id":"a16a2d2ae273f8fc","type":"text","text":"# WWW","x":262,"y":300,"width":156,"height":60,"color":"2"},
+		{"id":"4574ce49f5a654ca","type":"text","text":"# B","x":-408,"y":410,"width":77,"height":60}
+	],
+	"edges":[
+		{"id":"6a337c66c8bad14c","fromNode":"f4f85ee595f5188f","fromSide":"bottom","toNode":"14364799df50f5a0","toSide":"top"},
+		{"id":"161388ed156f99cc","fromNode":"14364799df50f5a0","fromSide":"bottom","toNode":"2a820d421d94d605","toSide":"top","label":"10.0.0.1"},
+		{"id":"0a67ab56cdb7387d","fromNode":"14364799df50f5a0","fromSide":"bottom","toNode":"4574ce49f5a654ca","toSide":"top","label":"10.0.0.2"},
+		{"id":"79abd7790f0d87f3","fromNode":"4574ce49f5a654ca","fromSide":"right","toNode":"f4f85ee595f5188f","toSide":"bottom","label":"I Want to go to \"yahoo.com"},
+		{"id":"8522b34f306e49d5","fromNode":"6668c60043c1979d","fromSide":"bottom","toNode":"d62804ebae02c3a2","toSide":"top"},
+		{"id":"78bc84553b75729b","fromNode":"6668c60043c1979d","fromSide":"bottom","toNode":"b84120220cee59a0","toSide":"top"},
+		{"id":"9840304ef576e4d6","fromNode":"6668c60043c1979d","fromSide":"bottom","toNode":"2ef5f0773177c008","toSide":"top"},
+		{"id":"aeb9d4aabde42b6d","fromNode":"6668c60043c1979d","fromSide":"left","toNode":"f4f85ee595f5188f","toSide":"top","color":"6","label":"No , but i know someone => \".com\""},
+		{"id":"1379f9e39b680d5a","fromNode":"f4f85ee595f5188f","fromSide":"right","toNode":"d62804ebae02c3a2","toSide":"top","color":"#0e3677","label":"2.Do u know \"yahoo.com\""},
+		{"id":"df994b89aeea0adc","fromNode":"d62804ebae02c3a2","fromSide":"left","toNode":"f4f85ee595f5188f","toSide":"right","color":"#0e3677","label":"No , but i know there DNS "},
+		{"id":"a9e3302f89613945","fromNode":"d62804ebae02c3a2","fromSide":"bottom","toNode":"18e04f67aab22314","toSide":"top"},
+		{"id":"ff7e98220ad03163","fromNode":"18e04f67aab22314","fromSide":"bottom","toNode":"a16a2d2ae273f8fc","toSide":"top"},
+		{"id":"9e0d73ab2473bcaf","fromNode":"18e04f67aab22314","fromSide":"bottom","toNode":"3921cfa298729dba","toSide":"top"},
+		{"id":"08e70fa1a8799d57","fromNode":"18e04f67aab22314","fromSide":"bottom","toNode":"a6bf6521278cbdc5","toSide":"top"},
+		{"id":"3bf9aad6e17d8135","fromNode":"f4f85ee595f5188f","fromSide":"bottom","toNode":"18e04f67aab22314","toSide":"top","color":"5","label":"3.Do u know \"yahoo.com\""},
+		{"id":"b7726bd79f81529d","fromNode":"18e04f67aab22314","fromSide":"left","toNode":"f4f85ee595f5188f","toSide":"bottom","color":"5","label":"Yes , here it is"},
+		{"id":"2c825c9d9c517d75","fromNode":"f4f85ee595f5188f","fromSide":"top","toNode":"6668c60043c1979d","toSide":"top","color":"6","label":"1.Do u know \"yahoo.com\""}
+	]
+}
